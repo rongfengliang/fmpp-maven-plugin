@@ -17,7 +17,7 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
-  </repositories>
+ </repositories>
 ```
 
 * plugins
