@@ -12,7 +12,7 @@
 <repositories>
     <repository>
       <id>github</id>
-      <url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+      <url>https://maven.pkg.github.com/rongfengliang/fmpp-maven-plugin</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
