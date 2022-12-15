@@ -1,6 +1,6 @@
 # fmpp maven plugin
 
-> fork from dremio build plugin
+> fork from dremio build plugin and as one maven plugin package
 
 
 
