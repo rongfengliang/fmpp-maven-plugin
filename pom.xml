@@ -91,4 +91,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>fmpp maven plugin</name>
+            <url>https://maven.pkg.github.com/rongfengliang/fmpp-maven-plugin</url>
+        </repository>
+    </distributionManagement>
 </project>
