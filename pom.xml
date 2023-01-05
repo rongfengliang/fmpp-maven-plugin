@@ -7,7 +7,7 @@
     <groupId>com.rongfengliang</groupId>
     <artifactId>fmpp-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
-    <version>1.0</version>
+    <version>1.1</version>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
@@ -16,6 +16,7 @@
         <guava.version>31.1-jre</guava.version>
         <fmpp.version>0.9.16</fmpp.version>
         <freemarker.version>2.3.31</freemarker.version>
+        <bsh.version>2.0b6</bsh.version>
     </properties>
     <dependencies>
         <dependency>
@@ -56,6 +57,17 @@
             <groupId>net.sourceforge.fmpp</groupId>
             <artifactId>fmpp</artifactId>
             <version>${fmpp.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.beanshell</groupId>
+                    <artifactId>bsh</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache-extras.beanshell</groupId>
+            <artifactId>bsh</artifactId>
+            <version>${bsh.version}</version>
         </dependency>
         <dependency>
             <groupId>org.freemarker</groupId>
