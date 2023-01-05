@@ -26,7 +26,7 @@
 <plugin>
     <groupId>com.rongfengliang</groupId>
     <artifactId>fmpp-maven-plugin</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <executions>
         <execution>
             <id>generate-fmpp-sources</id>
